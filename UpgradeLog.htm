@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Migration Report
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Migration Report - </h1><div id="content"><h2 _locID="OverviewTitle">Overview</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Project</th><th _locID="PathTableHeader">Path</th><th _locID="ErrorsTableHeader">Errors</th><th _locID="WarningsTableHeader">Warnings</th><th _locID="MessagesTableHeader">Messages</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#7zip">7zip</a></strong></td><td>3rdparty\7zip\7zip.vcxproj</td><td class="textCentered"><a href="#7zipError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#asmjit">asmjit</a></strong></td><td>3rdparty\asmjit\asmjit.vcxproj</td><td class="textCentered"><a href="#asmjitError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Cubeb">Cubeb</a></strong></td><td>rpcs3\Cubeb.vcxproj</td><td class="textCentered"><a href="#CubebError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#emucore">emucore</a></strong></td><td>rpcs3\emucore.vcxproj</td><td class="textCentered"><a href="#emucoreError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#fusion">fusion</a></strong></td><td>3rdparty\fusion\fusion.vcxproj</td><td class="textCentered"><a href="#fusionError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#GLGSRender">GLGSRender</a></strong></td><td>rpcs3\GLGSRender.vcxproj</td><td class="textCentered"><a href="#GLGSRenderError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#glslang">glslang</a></strong></td><td>3rdparty\glslang\glslang.vcxproj</td><td class="textCentered"><a href="#glslangError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#hidapi">hidapi</a></strong></td><td>3rdparty\hidapi\hidapi.vcxproj</td><td class="textCentered"><a href="#hidapiError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#libcubeb">libcubeb</a></strong></td><td>3rdparty\cubeb\libcubeb.vcxproj</td><td class="textCentered"><a href="#libcubebError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#libcurl">libcurl</a></strong></td><td>3rdparty\curl\libcurl.vcxproj</td><td class="textCentered"><a href="#libcurlError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#libpng">libpng</a></strong></td><td>3rdparty\libpng\libpng.vcxproj</td><td class="textCentered"><a href="#libpngError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#libusb-1.0 (static)">libusb-1.0 (static)</a></strong></td><td>3rdparty\libusb\libusb_static.vcxproj</td><td class="textCentered"><a href="#libusb-1.0 (static)Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#llvm_build">llvm_build</a></strong></td><td>3rdparty\llvm\llvm_build.vcxproj</td><td class="textCentered"><a href="#llvm_buildError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#llvm_build_clang_cl">llvm_build_clang_cl</a></strong></td><td>3rdparty\llvm\llvm_build_clang_cl.vcxproj</td><td class="textCentered"><a href="#llvm_build_clang_clError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#miniupnpc_static">miniupnpc_static</a></strong></td><td>3rdparty\miniupnp\miniupnpc_static.vcxproj</td><td class="textCentered"><a href="#miniupnpc_staticError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#openal-soft">openal-soft</a></strong></td><td>3rdparty\openal\openal-soft.vcxproj</td><td class="textCentered"><a href="#openal-softError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#pnglibconf">pnglibconf</a></strong></td><td>3rdparty\libpng\pnglibconf.vcxproj</td><td class="textCentered"><a href="#pnglibconfError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#rpcs3">rpcs3</a></strong></td><td>rpcs3\rpcs3.vcxproj</td><td class="textCentered"><a href="#rpcs3Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#rtmidi">rtmidi</a></strong></td><td>3rdparty\rtmidi\rtmidi.vcxproj</td><td class="textCentered"><a href="#rtmidiError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#SDL">SDL</a></strong></td><td>3rdparty\libsdl-org\SDL.vcxproj</td><td class="textCentered"><a href="#SDLError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#soundtouch">soundtouch</a></strong></td><td>3rdparty\SoundTouch\soundtouch.vcxproj</td><td class="textCentered"><a href="#soundtouchError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#VKGSRender">VKGSRender</a></strong></td><td>rpcs3\VKGSRender.vcxproj</td><td class="textCentered"><a href="#VKGSRenderError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#wolfssl">wolfssl</a></strong></td><td>3rdparty\wolfssl\wolfssl.vcxproj</td><td class="textCentered"><a href="#wolfsslError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#XAudio">XAudio</a></strong></td><td>rpcs3\XAudio.vcxproj</td><td class="textCentered"><a href="#XAudioError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#xxhash">xxhash</a></strong></td><td>3rdparty\xxhash.vcxproj</td><td class="textCentered"><a href="#xxhashError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#yaml-cpp">yaml-cpp</a></strong></td><td>3rdparty\yaml-cpp\yaml-cpp.vcxproj</td><td class="textCentered"><a href="#yaml-cppError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#zlib">zlib</a></strong></td><td>3rdparty\zlib\zlib.vcxproj</td><td class="textCentered"><a href="#zlibError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#zstd">zstd</a></strong></td><td>3rdparty\zstd\zstd.vcxproj</td><td class="textCentered"><a href="#zstdError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#__BUILD_BEFORE">__BUILD_BEFORE</a></strong></td><td>__BUILD_BEFORE</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#3rdParty">3rdParty</a></strong></td><td>3rdParty</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pine">pine</a></strong></td><td>pine</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#rpcs3.emu">rpcs3.emu</a></strong></td><td>rpcs3.emu</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solution</span></a></strong></td><td>rpcs3.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">1</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solution and projects</h2><div id="messages"><a name="7zip" /><h3>7zip</h3><table><tr id="7zipHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClass7zip"><td class="IconErrorEncoded"><a name="7zipError" /></td><td class="messageCell"><strong>3rdparty\7zip\7zip.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="asmjit" /><h3>asmjit</h3><table><tr id="asmjitHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassasmjit"><td class="IconErrorEncoded"><a name="asmjitError" /></td><td class="messageCell"><strong>3rdparty\asmjit\asmjit.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Cubeb" /><h3>Cubeb</h3><table><tr id="CubebHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassCubeb"><td class="IconErrorEncoded"><a name="CubebError" /></td><td class="messageCell"><strong>rpcs3\Cubeb.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="emucore" /><h3>emucore</h3><table><tr id="emucoreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassemucore"><td class="IconErrorEncoded"><a name="emucoreError" /></td><td class="messageCell"><strong>rpcs3\emucore.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="fusion" /><h3>fusion</h3><table><tr id="fusionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassfusion"><td class="IconErrorEncoded"><a name="fusionError" /></td><td class="messageCell"><strong>3rdparty\fusion\fusion.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="GLGSRender" /><h3>GLGSRender</h3><table><tr id="GLGSRenderHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassGLGSRender"><td class="IconErrorEncoded"><a name="GLGSRenderError" /></td><td class="messageCell"><strong>rpcs3\GLGSRender.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="glslang" /><h3>glslang</h3><table><tr id="glslangHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassglslang"><td class="IconErrorEncoded"><a name="glslangError" /></td><td class="messageCell"><strong>3rdparty\glslang\glslang.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="hidapi" /><h3>hidapi</h3><table><tr id="hidapiHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasshidapi"><td class="IconErrorEncoded"><a name="hidapiError" /></td><td class="messageCell"><strong>3rdparty\hidapi\hidapi.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="libcubeb" /><h3>libcubeb</h3><table><tr id="libcubebHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasslibcubeb"><td class="IconErrorEncoded"><a name="libcubebError" /></td><td class="messageCell"><strong>3rdparty\cubeb\libcubeb.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="libcurl" /><h3>libcurl</h3><table><tr id="libcurlHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasslibcurl"><td class="IconErrorEncoded"><a name="libcurlError" /></td><td class="messageCell"><strong>3rdparty\curl\libcurl.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="libpng" /><h3>libpng</h3><table><tr id="libpngHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasslibpng"><td class="IconErrorEncoded"><a name="libpngError" /></td><td class="messageCell"><strong>3rdparty\libpng\libpng.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="libusb-1.0 (static)" /><h3>libusb-1.0 (static)</h3><table><tr id="libusb-1.0 (static)HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasslibusb-1.0 (static)"><td class="IconErrorEncoded"><a name="libusb-1.0 (static)Error" /></td><td class="messageCell"><strong>3rdparty\libusb\libusb_static.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="llvm_build" /><h3>llvm_build</h3><table><tr id="llvm_buildHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassllvm_build"><td class="IconErrorEncoded"><a name="llvm_buildError" /></td><td class="messageCell"><strong>3rdparty\llvm\llvm_build.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="llvm_build_clang_cl" /><h3>llvm_build_clang_cl</h3><table><tr id="llvm_build_clang_clHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassllvm_build_clang_cl"><td class="IconErrorEncoded"><a name="llvm_build_clang_clError" /></td><td class="messageCell"><strong>3rdparty\llvm\llvm_build_clang_cl.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="miniupnpc_static" /><h3>miniupnpc_static</h3><table><tr id="miniupnpc_staticHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassminiupnpc_static"><td class="IconErrorEncoded"><a name="miniupnpc_staticError" /></td><td class="messageCell"><strong>3rdparty\miniupnp\miniupnpc_static.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="openal-soft" /><h3>openal-soft</h3><table><tr id="openal-softHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassopenal-soft"><td class="IconErrorEncoded"><a name="openal-softError" /></td><td class="messageCell"><strong>3rdparty\openal\openal-soft.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="pnglibconf" /><h3>pnglibconf</h3><table><tr id="pnglibconfHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasspnglibconf"><td class="IconErrorEncoded"><a name="pnglibconfError" /></td><td class="messageCell"><strong>3rdparty\libpng\pnglibconf.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="rpcs3" /><h3>rpcs3</h3><table><tr id="rpcs3HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassrpcs3"><td class="IconErrorEncoded"><a name="rpcs3Error" /></td><td class="messageCell"><strong>rpcs3\rpcs3.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="rtmidi" /><h3>rtmidi</h3><table><tr id="rtmidiHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassrtmidi"><td class="IconErrorEncoded"><a name="rtmidiError" /></td><td class="messageCell"><strong>3rdparty\rtmidi\rtmidi.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="SDL" /><h3>SDL</h3><table><tr id="SDLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSDL"><td class="IconErrorEncoded"><a name="SDLError" /></td><td class="messageCell"><strong>3rdparty\libsdl-org\SDL.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="soundtouch" /><h3>soundtouch</h3><table><tr id="soundtouchHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasssoundtouch"><td class="IconErrorEncoded"><a name="soundtouchError" /></td><td class="messageCell"><strong>3rdparty\SoundTouch\soundtouch.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="VKGSRender" /><h3>VKGSRender</h3><table><tr id="VKGSRenderHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassVKGSRender"><td class="IconErrorEncoded"><a name="VKGSRenderError" /></td><td class="messageCell"><strong>rpcs3\VKGSRender.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="wolfssl" /><h3>wolfssl</h3><table><tr id="wolfsslHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasswolfssl"><td class="IconErrorEncoded"><a name="wolfsslError" /></td><td class="messageCell"><strong>3rdparty\wolfssl\wolfssl.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="XAudio" /><h3>XAudio</h3><table><tr id="XAudioHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassXAudio"><td class="IconErrorEncoded"><a name="XAudioError" /></td><td class="messageCell"><strong>rpcs3\XAudio.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="xxhash" /><h3>xxhash</h3><table><tr id="xxhashHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassxxhash"><td class="IconErrorEncoded"><a name="xxhashError" /></td><td class="messageCell"><strong>3rdparty\xxhash.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="yaml-cpp" /><h3>yaml-cpp</h3><table><tr id="yaml-cppHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassyaml-cpp"><td class="IconErrorEncoded"><a name="yaml-cppError" /></td><td class="messageCell"><strong>3rdparty\yaml-cpp\yaml-cpp.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="zlib" /><h3>zlib</h3><table><tr id="zlibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasszlib"><td class="IconErrorEncoded"><a name="zlibError" /></td><td class="messageCell"><strong>3rdparty\zlib\zlib.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="zstd" /><h3>zstd</h3><table><tr id="zstdHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasszstd"><td class="IconErrorEncoded"><a name="zstdError" /></td><td class="messageCell"><strong>3rdparty\zstd\zstd.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="__BUILD_BEFORE" /><h3>__BUILD_BEFORE</h3><table><tr id="__BUILD_BEFOREHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">__BUILD_BEFORE logged no messages.
+                  </td></tr></table><a name="3rdParty" /><h3>3rdParty</h3><table><tr id="3rdPartyHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">3rdParty logged no messages.
+                  </td></tr></table><a name="pine" /><h3>pine</h3><table><tr id="pineHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">pine logged no messages.
+                  </td></tr></table><a name="rpcs3.emu" /><h3>rpcs3.emu</h3><table><tr id="rpcs3.emuHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">rpcs3.emu logged no messages.
+                  </td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solution</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Show 1 additional messages
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>rpcs3.sln:
+        </strong><span>The solution file does not require migration.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Hide 1 additional messages
+        </a></td></tr></table></div></div></body></html>
